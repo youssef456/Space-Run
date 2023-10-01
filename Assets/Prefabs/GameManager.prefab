@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181800708913291934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181800708913291904}
+  - component: {fileID: 181800708913291905}
+  - component: {fileID: 548805448565774227}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181800708913291904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181800708913291934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181800708913291905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181800708913291934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b573d8876e576498860d16db557221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bridgeprephab: []
+  tilelenght: 5.03
+  notilesonscreen: 25
+  safezone: 15
+  movespeed: 7
+--- !u!114 &548805448565774227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181800708913291934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6dc2469f854764c84b0edc5d635196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnCoins: 0
+  coin: {fileID: 6240547754896100770, guid: 2033ffd3963df6940a77f36475987b44, type: 3}
+  Coinspawnrate: 2
+  Coinspawndistance: 80
+  spawnCars: 0
+  car:
+  - {fileID: 698601624640103193, guid: 78c29591f94de764abdac58d519ef000, type: 3}
+  - {fileID: 2304782364043285914, guid: 9f7b7b199abda6c4bbb089e6df394b42, type: 3}
+  - {fileID: 5128795631785952247, guid: f5d2e952d0b441f4b8c129f79a214254, type: 3}
+  Carspawnrate: 1.5
+  carspawndistance: 300
+  player: {fileID: 6240547754896100770, guid: 2033ffd3963df6940a77f36475987b44, type: 3}

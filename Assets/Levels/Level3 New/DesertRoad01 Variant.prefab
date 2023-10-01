@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &3033258950790487133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6069681540693595831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 0.15046108, z: 50.002003}
+  m_Center: {x: 0, y: -0.3, z: 0}
+--- !u!65 &9170460378465729940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6069681540693595829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 0.15000652, z: 49.999992}
+  m_Center: {x: 0, y: -0.3, z: 0}
+--- !u!1001 &6069681540693495899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_Name
+      value: DesertRoad01 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8297b982e1e817d4792c8764d726d66e, type: 3}
+--- !u!1 &6069681540693595831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100076, guid: 8297b982e1e817d4792c8764d726d66e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6069681540693495899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6069681540693595829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100078, guid: 8297b982e1e817d4792c8764d726d66e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6069681540693495899}
+  m_PrefabAsset: {fileID: 0}
